@@ -91,7 +91,7 @@
 000910*    Doc ban ghi dau tien
 000920     PERFORM                        1-1-IN01-READ.
 000930     IF      END-FLAG  =  "END"
-000940             DISPLAY   "??? IN01-FILE DATA NOTHING ???"
+000940             DISPLAY   "ABC XYZ"
 000950                     UPON CONSOLE
 000960     ELSE
 000970             CONTINUE
